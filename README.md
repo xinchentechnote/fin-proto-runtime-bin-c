@@ -2,7 +2,7 @@
 
 fin-proto 二进制协议 C11 运行时库,与
 [fin-proto-runtime-bin-rs](https://github.com/xinchentechnote/fin-proto-runtime-bin-rs)(crate `binary-codec`)
-和 [fin-proto-runtime-bin-zig](../fin-proto-runtime-bin-zig) 语义对齐,供
+和 [fin-proto-runtime-bin-zig](https://github.com/xinchentechnote/fin-proto-runtime-bin-zig) 语义对齐,供
 [fin-protoc](https://github.com/xinchentechnote/fin-protoc) 生成的 C 消息代码依赖。
 
 ## 组成
@@ -25,7 +25,7 @@ fin-proto 二进制协议 C11 运行时库,与
 ## 使用
 
 生成的 C 代码通过头文件引用本库(编译时 `-I <runtime>/include` 并链接 `src/*.c`),
-参考 fin-proto-sse-bin-c 等工程:
+参考 [fin-proto-sse-bin-c](https://github.com/xinchentechnote/fin-proto-sse-bin-c) 等工程:
 
 ```bash
 make test      # 编译并运行运行时自测
